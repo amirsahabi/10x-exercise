@@ -23,3 +23,12 @@ Within this directory is also included a compose.yaml file which can be used wit
 
 This will build a docker container containing the required python and csv files to run the server. It'll
  subsequently start a server running on port 8000 that can be queried.
+
+### Verify
+
+Verify the server is running by sending some sample queries to the server itself:
+
+From the commandline:
+```curl 'localhost:8000/query?limit=1'```
+
+Or simply visit this URL in your browser.
